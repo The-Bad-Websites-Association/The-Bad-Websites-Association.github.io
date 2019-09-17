@@ -89,7 +89,7 @@
       "z-index": "10000000",
       "fontSize": "16px",
       "will-change": "transform"
-    };
+    }; 
 
     // Init, and set properties
     this.init = function(x, y, character) {
