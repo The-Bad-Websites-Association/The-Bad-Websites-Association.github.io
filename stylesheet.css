@@ -5,3 +5,8 @@
 	transition:1s;
 
 }
+button{
+	position:absolute;
+	top:15px;
+	left:325px;
+}

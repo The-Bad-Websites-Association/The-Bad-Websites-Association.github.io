@@ -4,6 +4,10 @@
 <title>bad awful</title>
 
  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
  <script type="text/javascript" src="cursor.js"></script>
 
 
@@ -52,9 +56,23 @@ while (i <== 7) {
 </li>
 </ol>
 
+<button>Donate</button>
+
 <a href="https://smallseotools.com/visitor-hit-counter/" target="_blank" title="SST free website click counter" rel="nofollow noopener"><img src="https://smallseotools.com/counterDisplay?code=cd719036e08642dd06d5386057382c1c&style=0011&pad=5&type=page&initCount=1" alt="SST free website click counter" border="0"></a>
 
 <style type="text/css">* {cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.png), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2018/03/07/red-yellow-electricity-lightning.html" target="_blank" title="Red Yellow Electricity Lightning"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Red Yellow Electricity Lightning" style="position:absolute; top: 0px; right: 0px;" /></a>
 
+<script>
+    $(function(){
+        $("button").on({
+            mouseover:function(){
+                $(this).css({
+                    left:(Math.random()*200)+"px",
+                    top:(Math.random()*200)+"px",
+                });
+            }
+        });
+    });
+</script>
 
 </body>
