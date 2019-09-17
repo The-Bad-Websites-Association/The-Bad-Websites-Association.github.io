@@ -1,4 +1,5 @@
-img:hover {
+.cat:hover {
+	transition-delay:ease, 3s;
 	height:1000px;
 	width:1000px;
 }
