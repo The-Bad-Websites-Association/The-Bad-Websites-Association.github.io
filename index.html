@@ -38,6 +38,8 @@ while (i <== 7) {
 <img class='cat' src="http://giphygifs.s3.amazonaws.com/media/sIIhZliB2McAo/giphy.gif">
 <img class='cat' src="http://giphygifs.s3.amazonaws.com/media/sIIhZliB2McAo/giphy.gif">
 
+    <clickbutton id="clickme">Click to play</clickbutton>
+
 <iframe src="index.html" style="width: 500px; height: 500px;"></iframe>
 <iframe src="https://www.seanconnery.com/wp-content/uploads/2018/12/sean_home.gif"></iframe>
 
@@ -82,5 +84,16 @@ while (i <== 7) {
         });
     });
 </script>
+
+<script>
+  var button = document.getElementById("clickme"),
+    count = -1000;
+  button.onclick = function() {
+    count += 1;
+    button.innerHTML = "Oops! 404 Page Not Found. Try again " + count;
+  };
+</script>
+
+
 
 </body>

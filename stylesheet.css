@@ -30,6 +30,18 @@ mybutton a{
 	color: white;
 }
 
+clickbutton {
+	height:100px;
+	background-color: red;
+	position: absolute;
+	top:40%;
+	left:80%;
+	font-size: 30px;
+	border-radius:40px;
+	text-align:center;
+
+}
+
 footer {
 	background-image:url("https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif");
 	width: 100%;
