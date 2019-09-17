@@ -1,5 +1,7 @@
 .cat:hover {
-	transition-delay:ease, 3s;
-	height:1000px;
-	width:1000px;
+	height:800px;
+	width:800px;
+	opacity: 0;
+	transition:1s;
+
 }
