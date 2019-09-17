@@ -1,12 +1,41 @@
+body {
+	height:20000px
+}
+
 .cat:hover {
 	height:800px;
 	width:800px;
 	opacity: 0;
 	transition:1s;
-
 }
 button{
 	position:absolute;
 	top:15px;
 	left:325px;
+}
+
+mybutton {
+	position: fixed;
+	float: right;
+	top:15px;
+	left:85%;
+	padding:5px;
+	border-radius:5px;
+	background-color:green;
+	font-size: 30px;
+}
+
+mybutton a{
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	background-image:url("https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif");
+	width: 100%;
+	position: absolute;
+	top:19000px;
+	height: 2000px;
+	background-repeat:repeat;
+	font-size: 40px;
 }
