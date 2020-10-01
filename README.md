@@ -1,3 +1,3 @@
 # The-Bad-Websites-Association.github.io
-## The internets upcomming worst website 
-Please edit **however** you please
+Website curretly has some drawbacks but any updates are appreciated.
+Please feel free to contribute to this project.
